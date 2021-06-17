@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Weather app 0.1</title>
+</head>
+<body>
+    <main>
+        <section id="mainConrainer" class="weather-info">
+            <div id="weatherSearchView" class="weather-info__search-view">
+                <label class="weather-info__search__label" for="searchInput">Check weather:</label>
+                <input type="text" id="searchInput">
+                <button id="searchButton">search</button>
+            </div>
+
+            <div id="weatherForecastView" class="weather-info__forecast-view">
+                <button id="returnToSearchBtn" class="weather-info__btn-return">return</button>
+            
+                <div class="weather-info__city">
+                    <h1 id="weatherCity"></h1>
+                    <h1 id="weatherIcon"></h1>
+                </div>
+
+                <div class="weather-info__temperatures">
+                    <h2 id="weatherCurrentTemp"></h2>
+                    <p id="weatherMaxTemp"></p>
+                    <p id="weatherMinTemp"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
