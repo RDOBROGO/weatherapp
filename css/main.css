@@ -66,6 +66,11 @@ main {
     align-items: center;
 }
 
+.weather-info__city img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
 .weather-info__btn-return {
     padding: 5px 25px;
     border: 2px solid black;
