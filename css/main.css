@@ -25,7 +25,7 @@ main {
     max-height: 700px;
     padding: 5%;
     border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0% rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
     box-shadow: 0px 0px 10px 3px rgba(36, 36, 36, .05);
     transition-duration: .5s;
     transition-property: opacity;
@@ -64,6 +64,11 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.weather-info__city img {
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .weather-info__btn-return {
