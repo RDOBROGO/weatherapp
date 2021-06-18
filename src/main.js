@@ -105,4 +105,4 @@ const returnToSearch = () => {
 }
 
 
-document.addEventListener('DOMContentLoaded', initializeApp)
+document.addEventListener('DOMContentLoaded', initializeApp);
