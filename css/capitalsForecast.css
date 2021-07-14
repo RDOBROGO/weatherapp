@@ -1,0 +1,16 @@
+.forecast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.capital {
+    display: flex;
+}
+
+.icon-forecast {
+    width: 50px;
+}
+
+.day-forecast h1 {
+    font-size: 24px;
+}
