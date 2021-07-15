@@ -1,3 +1,5 @@
+@import './capitalsForecast.css';
+
 body {
     font-family: 'Baloo Thambi 2', cursive;
     margin: 0;
@@ -20,8 +22,8 @@ main {
 
 .weather-info {
     height: auto;
-    width: 40%;
-    max-width: 1000px;
+    width: 60%;
+    max-width: 1500px;
     max-height: 700px;
     padding: 5%;
     border-radius: 10px;
@@ -74,4 +76,9 @@ main {
 .weather-info__btn-return {
     padding: 5px 25px;
     border: 2px solid black;
+}
+
+.errorData {
+color: red;
+visibility: hidden;
 }

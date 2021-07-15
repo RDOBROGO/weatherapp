@@ -10,3 +10,9 @@ export const mapListToDOMElements = listOfId => {
     }
     return _viewElems;
 }
+
+export const createDomElements = (element, className) => {
+    const domElement = document.createElement(element);
+    domElement.classList.add(className);
+    return domElement;
+}
